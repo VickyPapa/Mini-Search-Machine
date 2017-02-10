@@ -1,0 +1,3 @@
+1.我们的两个程序的不同在于处理stop word的方式不同。名字为search engine+stoptable.c的程序是通过我们上网找到的stop table来处理stop word的，而名字为search engine+word frequency.c的程序是我们通过判断一个词在所有文件中出现的频率来判断这个词是不是stop word，由于判断方法不同，得出的结果可能也有所不同。
+2.我们的搜索引擎在搜索短语的时候暂不支持threshold
+3.如果您是建工程然后运行程序的，请将#include"stem.h"注释掉，如果您不建工程就直接生成exe的，请将之前所说的include语句保留。当然您也可以通过我们提供的exe文件进行测试。
